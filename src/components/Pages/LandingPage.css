@@ -1,0 +1,94 @@
+.Home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel {
+    width: 100%;
+    padding: 2%;
+}
+
+.Landing-content {
+    width: 90%;
+    height: auto;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Landing-heading {
+    font-weight: 600;
+    font-size: 2rem;
+    color: brown;
+}
+
+.Landing-font {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.Landing-services {
+    padding-top: 10%;
+    width: 30%;
+}
+
+.Landing-content-div {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 415px) {
+    .Home {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel {
+        width: 100%;
+        padding: 2%;
+        height: 300px;
+    }
+
+    .Landing-content {
+        width: 90%;
+        height: auto;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .Landing-heading {
+        font-weight: 600;
+        font-size: 2rem;
+        color: brown;
+    }
+
+    .Landing-font {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 300;
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    .Landing-services {
+        padding-top: 10%;
+        width: 90%;
+    }
+
+    .Landing-content-div {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,124 @@
+.career-form {
+    width: 40%;
+    height: auto;
+    margin-left: 10%;
+    border: brown solid 2px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.career-form-label {
+    font-size: 1.5rem;
+    margin-right: 100px;
+}
+
+.career-form-text {
+    width: 60%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.career-form-textarea {
+    width: 60%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.career-form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.career-form-button {
+    background: rgb(36, 0, 0);
+    background: linear-gradient(90deg, rgba(36, 0, 0, 1) 0%, rgba(121, 9, 15, 1) 50%, rgba(255, 0, 40, 1) 100%);
+    width: 20%;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 2px;
+}
+
+.Career-heading {
+    font-weight: 600;
+    font-size: 2rem;
+    color: brown;
+}
+
+.Career-font {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.Career-content {
+    width: 90%;
+    margin-top: 7%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 4%;
+}
+
+@media (max-width: 415px) {
+    .career-form {
+        width: 75%;
+        height: auto;
+        margin-left: 10%;
+        border: brown solid 2px;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .career-form-label {
+        font-size: 1rem;
+    }
+
+    .career-form-text {
+        width: 60%;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .career-form-textarea {
+        width: 60%;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .career-form-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .career-form-button {
+        background: rgb(36, 0, 0);
+        background: linear-gradient(90deg, rgba(36, 0, 0, 1) 0%, rgba(121, 9, 15, 1) 50%, rgba(255, 0, 40, 1) 100%);
+        width: 40%;
+        font-size: 1.5rem;
+        color: white;
+        border-radius: 2px;
+    }
+
+    .Career-heading {
+        font-weight: 600;
+        font-size: 2rem;
+        color: brown;
+    }
+
+    .Career-font {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 300;
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    .Career-content {
+        width: 90%;
+        margin-top: 100px;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 4%;
+    }
+}
