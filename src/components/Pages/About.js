@@ -6,8 +6,7 @@ import Chem1 from '../img/chem1.jfif';
 import Chem2 from '../img/chem2.jfif';
 import Chem3 from '../img/chem3.jfif';
 import Vission from '../elements/Carousel2';
-import { BsFillEyeFill } from "react-icons/bs";
-import { GiBullseye,GiBubblingFlask } from "react-icons/gi";
+import { GiBubblingFlask } from "react-icons/gi";
 
 
 const Aboutus = () => {
@@ -15,9 +14,9 @@ const Aboutus = () => {
         <div>
         <Header/>
         <div className="about-images">
-            <img src={Chem1} className="about-img" alt="image" />
-            <img src={Chem2} className="about-img" alt="image" />
-            <img src={Chem3} className="about-img" alt="image" />
+            <img src={Chem1} className="about-img" alt="image1" />
+            <img src={Chem2} className="about-img" alt="image2" />
+            <img src={Chem3} className="about-img" alt="image3" />
         </div>
         <div className="about-container">
             <h1 className="about-heading"><GiBubblingFlask/> About Us:</h1>

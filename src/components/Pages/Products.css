@@ -1,3 +1,62 @@
 .Product-content {
     width: 100%;
 }
+
+.Products {
+    width: 90%;
+    margin: 5%;
+    border: brown solid 2px;
+}
+
+.products-items {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.product-list {
+    width: 30%;
+    justify-content: left;
+}
+
+.product-heading {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1000;
+    font-size: 2rem;
+    color: brown;
+}
+
+@media (max-width: 415px) {
+    .Product-content {
+        width: 100%;
+    }
+
+    .Products {
+        width: 90%;
+        margin: 5%;
+        border: brown solid 2px;
+    }
+
+    .products-items {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .product-list {
+        width: 100%;
+        justify-content: left;
+    }
+
+    .product-heading {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 1000;
+        font-size: 1.8rem;
+        font-weight: 800;
+        color: brown;
+    }
+}

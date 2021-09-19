@@ -4,7 +4,7 @@ import './Carousel.css'
 import "owl.carousel/dist/assets/owl.carousel.min.css";
 import "owl.carousel/dist/assets/owl.theme.default.min.css";
 import { BsFillEyeFill } from "react-icons/bs";
-import { GiBullseye,GiBubblingFlask } from "react-icons/gi";
+import { GiBullseye } from "react-icons/gi";
 
 const App = () => {
   return (

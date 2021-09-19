@@ -39,7 +39,7 @@ const Sidedrawer = ({show, closeSidedrawer}) => {
                     <Link to="/"><p className="Header_Links">HOME</p></Link>
                     </li>
                     <li className="sidedrawer-menu">
-                    <Link to="/products"><p className="Header_Links">PRODUCTS</p></Link>
+                    <Link to="/chemicalsandPetrochemicals"><p className="Header_Links">PRODUCTS</p></Link>
                     </li>
                     <li className="sidedrawer-menu">
                     <Link to="/aboutUs"><p className="Header_Links">ABOUT US</p></Link>

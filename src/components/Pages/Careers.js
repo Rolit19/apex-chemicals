@@ -5,8 +5,6 @@ import ContactForm from '../Pages/Form';
 import './Careers.css';
 import {FcManager} from "react-icons/fc";
 import {MdEmail} from "react-icons/md";
-import {FiPhoneCall} from "react-icons/fi";
-import {BsBuilding} from "react-icons/bs";
 import {RiQuestionAnswerFill} from "react-icons/ri";
 
 const CareersPage = () => {

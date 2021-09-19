@@ -5,8 +5,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: rgb(255, 0, 40);
-    background: linear-gradient(90deg, rgba(255, 0, 40, 1) 0%, rgba(121, 9, 15, 1) 50%, rgba(37, 0, 0, 1) 100%);
+    background: rgba(0, 0, 0, 0.4);
+    /* background: rgb(255, 0, 40);
+    background: linear-gradient(90deg, rgba(255, 0, 40, 1) 0%, rgba(121, 9, 15, 1) 50%, rgba(37, 0, 0, 1) 100%); */
     opacity: 80%;
 }
 
@@ -71,8 +72,8 @@
 }
 
 .Header_Links li:hover {
-    border-bottom: 1.5px solid white !important;
-    border-top: 1.5px solid white !important;
+    border-bottom: 3px solid white !important;
+    border-top: 3px solid white !important;
     color: white;
     transition: 0.5s;
     font-size: 1.8rem !important;

@@ -22,7 +22,7 @@ class footer extends Component{
                             <Link to="/"><p style={{fontSize:"1.2rem" ,color:"white"}}><HomeIcon style={{fontSize:"1.2rem" ,color:"white"}}/> Home</p></Link>
                             </li>
                             <li className="footer-li">
-                            <Link to="/products"><p style={{fontSize:"1.2rem" ,color:"white"}}><ListRoundedIcon style={{fontSize:"large" ,color:"white"}}/> Products</p></Link>
+                            <Link to="/chemicalsandPetrochemicals"><p style={{fontSize:"1.2rem" ,color:"white"}}><ListRoundedIcon style={{fontSize:"large" ,color:"white"}}/> Products</p></Link>
                             </li>
                             <li className="footer-li">
                             <Link to="/aboutUs"><p style={{fontSize:"1.2rem" ,color:"white"}}><InfoRoundedIcon style={{fontSize:"large" ,color:"white"}}/> About Us</p></Link>
