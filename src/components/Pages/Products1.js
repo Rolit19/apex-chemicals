@@ -5,12 +5,13 @@ import Slideshow from '../elements/Carousel3';
 import { Link } from 'react-router-dom';
 import './Products.css';
 import {GiChemicalTank} from 'react-icons/gi'
-
+import {FaMapMarkedAlt} from "react-icons/fa";
 const ProductsPage = () => {
     return (
         <div>
             <Header/>
             <center>
+                <h1 className="product-heading" style={{marginTop:"140px",marginBottom:"-60px"}}><FaMapMarkedAlt/> MARKETS</h1>
                 <Slideshow/>
                 <div className="Product-content">
                     <p style={{fontSize:"1.5rem",color:"brown",marginBottom:"-20px"}}>VARIETY and RANGE</p>

@@ -24,27 +24,35 @@ const App = () => {
       >
         <div className="item">
           <img className="carousel-img1" src={img1} alt={img1} />
+          <center><p style={{fontSize:"2rem"}}>Cement</p></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img2} alt={img2} />
+          <center><p style={{fontSize:"2rem"}}>Fertelizers</p></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img3} alt={img3} />
+          <center><p style={{fontSize:"2rem"}}>Laminated Sheets</p></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img4} alt={img1} />
+          <center><p style={{fontSize:"2rem"}}>Lubricants</p></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img5} alt={img2} />
+          <center><p style={{fontSize:"2rem"}}>Paints</p></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img6} alt={img3} />
+          <center><p style={{fontSize:"2rem"}}>Perfumery</p></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img7} alt={img1} />
+          <center><p style={{fontSize:"2rem"}}>Pharmacy</p></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img8} alt={img2} />
+          <center><p style={{fontSize:"2rem"}}>Textiles</p></center>
         </div>
       </OwlCarousel>
     </div>

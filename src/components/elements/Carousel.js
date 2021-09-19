@@ -3,9 +3,9 @@ import OwlCarousel from "react-owl-carousel";
 import './Carousel.css'
 import "owl.carousel/dist/assets/owl.carousel.min.css";
 import "owl.carousel/dist/assets/owl.theme.default.min.css";
-import img1 from "../img/plant1.jpg";
-import img2 from "../img/plant2.jfif";
-import img3 from "../img/plant3.jpg";
+import img1 from "../img/ab4.png";
+import img2 from "../img/ab2.jpg";
+import img3 from "../img/ab1.jpg";
 const App = () => {
   return (
     <div className="Carousel">

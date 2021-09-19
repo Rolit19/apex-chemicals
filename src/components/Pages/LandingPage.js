@@ -3,9 +3,11 @@ import './LandingPage.css';
 import Header from '../header/Navbar';
 import Footer from '../footer/Footer';
 import Slideshow from '../elements/Carousel';
+import { Link } from 'react-router-dom';
+import Slideshow1 from '../elements/Carousel3';
 import { GiPathDistance } from "react-icons/gi";
 import { FcServices,FcImport,FcExport} from "react-icons/fc";
-import { FaIndent} from "react-icons/fa";
+import { FaIndent,FaMapMarkedAlt} from "react-icons/fa";
 
 const LandingPage = () => {
     return (
@@ -50,6 +52,9 @@ const LandingPage = () => {
                     </div>
                 </div>
             </div>
+            <center><h1 className="Landing-heading" style={{marginBottom:"-40px"}}><FaMapMarkedAlt/> MARKETS<br/></h1></center>
+            <Slideshow1/>
+            <center><Link to="/chemicalsandPetrochemicals"><p style={{fontSize:"2rem"}}>Veiw More</p></Link></center>
             <Footer/>
         </div>
     )

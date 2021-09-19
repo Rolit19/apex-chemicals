@@ -23,7 +23,7 @@
 
 .Header_Container {
     width: 80%;
-    height: 90px;
+    height: 110px;
     margin: 0 auto;
     position: relative;
     display: flex;
@@ -32,8 +32,8 @@
 
 .Header_Logo {
     position: absolute;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     left: 0;
 }
 
