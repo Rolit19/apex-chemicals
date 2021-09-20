@@ -2,9 +2,9 @@ import React from 'react';
 import Header from '../header/Navbar';
 import Footer from '../footer/Footer';
 import Slideshow from '../elements/Carousel3';
+import { Link } from 'react-router-dom';
 import './Products.css';
 import {GiChemicalTank} from 'react-icons/gi'
-import { Link } from 'react-router-dom';
 
 const ProductsPage = () => {
     return (
@@ -25,56 +25,33 @@ const ProductsPage = () => {
                         <Link to="/aromaChemicals"><h1 className="product-heading">Aroma Chemicals</h1></Link>
                 </div>
                 <div className="Products">
-                <p style={{fontSize:"3rem",color:"brown",marginBottom:"20px"}}><GiChemicalTank/> Aroma Chemicals</p>
-                <div className="products-items">
+                <p style={{fontSize:"3rem",color:"brown",marginBottom:"20px"}}><GiChemicalTank/> Pharmaceutical Intermediates</p>
+                <div>
                     <div className="product-list">
-                        <h1 className="product-heading">Styrene oxide:</h1><hr style={{width:"100%", color:"brown"}}/>
                         <p style={{fontSize:"1.5rem"}}>
-                        Capsules	<br/>
-                        Syrups	<br/>
-                        Tablets
+                        Dimethylamine
                         </p>
                     </div>
                     <div className="product-list">
-                        <h1 className="product-heading">Diphenyl oxide:</h1><hr style={{width:"100%", color:"brown"}}/>
                         <p style={{fontSize:"1.5rem"}}>
-                        Washing Detergents<br/>
-                        Home Cleaning<br/>
-                        Shampoos
+                        Zinc oxide
                         </p>
                     </div>
                     <div className="product-list">
-                        <h1 className="product-heading">Alpha campholenic aldehyde:</h1><hr style={{width:"100%", color:"brown"}}/>
                         <p style={{fontSize:"1.5rem"}}>
-                        Soap Bars<br/>
-                        Incense Sticks<br/>
-                        Aroma Oil
+                        Styrenated phenol
                         </p>
                     </div>
                 </div>
-                <div className="products-items">
+                <div>
                     <div className="product-list">
-                        <h1 className="product-heading">Phenyl ethyl alcohol:</h1><hr style={{width:"100%", color:"brown"}}/>
                         <p style={{fontSize:"1.5rem"}}>
-                        Soap Bars<br/>
-                        Cosmetics<br/>
-                        Reed Sticks Oil
+                        Zinc stearate
                         </p>
                     </div>
                     <div className="product-list">
-                        <h1 className="product-heading">Styrallyl Acetate:</h1><hr style={{width:"100%", color:"brown"}}/>
                         <p style={{fontSize:"1.5rem"}}>
-                        Soap Bars<br/>
-                        Cosmetics<br/>
-                        Reed Sticks Oil
-                        </p>
-                    </div>
-                    <div className="product-list">
-                        <h1 className="product-heading">Phenyl Ethyl Methyl Ether:</h1><hr style={{width:"100%", color:"brown"}}/>
-                        <p style={{fontSize:"1.5rem"}}>
-                        Soap Bars<br/>
-                        Cosmetics<br/>
-                        Reed Sticks Oil
+                        Stearic acid
                         </p>
                     </div>
                 </div>

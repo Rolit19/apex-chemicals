@@ -6,8 +6,6 @@
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.4);
-    /* background: rgb(255, 0, 40);
-    background: linear-gradient(90deg, rgba(255, 0, 40, 1) 0%, rgba(121, 9, 15, 1) 50%, rgba(37, 0, 0, 1) 100%); */
     opacity: 80%;
 }
 
@@ -148,7 +146,7 @@ a {
 
 @media (max-width: 1072px) {
     .Header_Container {
-        height: 90px;
+        height: 110px;
         width: 90%;
     }
 

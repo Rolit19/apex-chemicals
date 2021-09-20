@@ -15,13 +15,13 @@ const ProductsPage = () => {
                 <Slideshow/>
                 <div className="Product-content">
                     <p style={{fontSize:"1.5rem",color:"brown",marginBottom:"-20px"}}>VARIETY and RANGE</p>
-                    <p style={{fontSize:"2rem",color:"brown",marginBottom:"-60px"}}>OUR</p>
+                    <p style={{fontSize:"2rem",color:"brown",marginBottom:"-60px",fontWeight:"bolder"}}>OUR</p>
                     <p style={{fontSize:"3rem",color:"brown",fontWeight:"bolder"}}>PRODUCTS</p>
                 </div>
                 <div className="products-items">
                         <Link to="/chemicalsandPetrochemicals"><h1 className="product-heading">Chemicals and Petrochemicals</h1></Link>
                         <Link to="/polymers"><h1 className="product-heading">Polymers</h1></Link>
-                        <Link to="/pharmaceuticalIntermediates"><h1 className="product-heading">Rubbers</h1></Link>
+                        <Link to="/rubber"><h1 className="product-heading">Rubbers</h1></Link>
                         <Link to="/pharmaceuticalIntermediates"><h1 className="product-heading">Pharma Intermediates</h1></Link>
                         <Link to="/aromaChemicals"><h1 className="product-heading">Aroma Chemicals</h1></Link>
                 </div>

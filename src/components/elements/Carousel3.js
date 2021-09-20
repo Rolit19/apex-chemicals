@@ -3,6 +3,7 @@ import OwlCarousel from "react-owl-carousel";
 import './Carousel.css'
 import "owl.carousel/dist/assets/owl.carousel.min.css";
 import "owl.carousel/dist/assets/owl.theme.default.min.css";
+import { Link } from 'react-router-dom';
 import img1 from "../img/c1.png";
 import img2 from "../img/c2.jpg";
 import img3 from "../img/c3.jpg";
@@ -23,36 +24,44 @@ const App = () => {
         items={3}
       >
         <div className="item">
-          <img className="carousel-img1" src={img1} alt={img1} />
-          <center><p style={{fontSize:"2rem"}}>Cement</p></center>
-        </div>
-        <div className="item">
-          <img className="carousel-img1" src={img2} alt={img2} />
-          <center><p style={{fontSize:"2rem"}}>Fertelizers</p></center>
-        </div>
-        <div className="item">
-          <img className="carousel-img1" src={img3} alt={img3} />
-          <center><p style={{fontSize:"2rem"}}>Laminated Sheets</p></center>
-        </div>
-        <div className="item">
-          <img className="carousel-img1" src={img4} alt={img1} />
-          <center><p style={{fontSize:"2rem"}}>Lubricants</p></center>
+          <img className="carousel-img1" src={img7} alt={img1} />
+          <center><p className="carousel-font">Pharmacy</p></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img5} alt={img2} />
-          <center><p style={{fontSize:"2rem"}}>Paints</p></center>
+          <center><p className="carousel-font">Paints</p></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
         </div>
         <div className="item">
-          <img className="carousel-img1" src={img6} alt={img3} />
-          <center><p style={{fontSize:"2rem"}}>Perfumery</p></center>
+          <img className="carousel-img1" src={img2} alt={img2} />
+          <center><p className="carousel-font">Fertelizers</p></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
         </div>
         <div className="item">
-          <img className="carousel-img1" src={img7} alt={img1} />
-          <center><p style={{fontSize:"2rem"}}>Pharmacy</p></center>
+          <img className="carousel-img1" src={img3} alt={img3} />
+          <center><p className="carousel-font">Laminated Sheets</p></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
+        </div>
+        <div className="item">
+          <img className="carousel-img1" src={img4} alt={img1} />
+          <center><p className="carousel-font">Lubricants</p></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
+        </div>
+        <div className="item">
+          <img className="carousel-img1" src={img1} alt={img1} />
+          <center><p className="carousel-font">Cement</p></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img8} alt={img2} />
-          <center><p style={{fontSize:"2rem"}}>Textiles</p></center>
+          <center><p className="carousel-font">Textiles</p></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
+        </div>
+        <div className="item">
+          <img className="carousel-img1" src={img6} alt={img3} />
+          <center><p className="carousel-font">Perfumery</p></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
         </div>
       </OwlCarousel>
     </div>

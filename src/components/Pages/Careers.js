@@ -16,6 +16,12 @@ const CareersPage = () => {
                 <p className="Career-font">Interested applicants are invited to apply via email with full resume, 
                 a recent photograph, and current / expected salary to accounts@apexchemicals.in or ashish@apexchemicals.in
                 Only short-listed candidates will be notified.</p>
+                <p className="Career-font">
+                Currently available openings <br/>
+                Accounts <br/>
+                Marketing <br/>
+                Sales
+                </p>
                 <h1 className="Career-heading"><RiQuestionAnswerFill/> QUERIES:<br/></h1>
                 <p className="Career-font">For and queries or support fill the form below.</p>
             </div>

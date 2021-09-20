@@ -9,6 +9,7 @@ import Product1 from './components/Pages/Products1';
 import Product2 from './components/Pages/Products2';
 import Product3 from './components/Pages/Products3';
 import Product4 from './components/Pages/Products4';
+import Product5 from './components/Pages/Products5';
 
 class App extends Component {
   render (){
@@ -20,6 +21,7 @@ class App extends Component {
         <Route exact path="/polymers" component={Product2} />
         <Route exact path="/pharmaceuticalIntermediates" component={Product3} />
         <Route exact path="/aromaChemicals" component={Product4} />
+        <Route exact path="/rubber" component={Product5} />
         <Route exact path="/aboutUs" component={About} />
         <Route exact path="/careers" component={Career} />
       </Switch>
