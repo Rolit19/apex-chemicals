@@ -25,43 +25,35 @@ const App = () => {
       >
         <div className="item">
           <img className="carousel-img1" src={img7} alt={img1} />
-          <center><p className="carousel-font">Pharmacy</p></center>
-          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p className="carousel-font">Pharmacy</p></Link><hr style={{width:"100%"}}/></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img5} alt={img2} />
-          <center><p className="carousel-font">Paints</p></center>
-          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p className="carousel-font">Paints</p></Link><hr style={{width:"100%"}}/></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img2} alt={img2} />
-          <center><p className="carousel-font">Fertelizers</p></center>
-          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p className="carousel-font">Fertelizers</p></Link><hr style={{width:"100%"}}/></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img3} alt={img3} />
-          <center><p className="carousel-font">Laminated Sheets</p></center>
-          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p className="carousel-font">Laminated Sheets</p></Link><hr style={{width:"100%"}}/></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img4} alt={img1} />
-          <center><p className="carousel-font">Lubricants</p></center>
-          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p className="carousel-font">Lubricants</p></Link><hr style={{width:"100%"}}/></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img1} alt={img1} />
-          <center><p className="carousel-font">Cement</p></center>
-          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p className="carousel-font">Cement</p></Link><hr style={{width:"100%"}}/></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img8} alt={img2} />
-          <center><p className="carousel-font">Textiles</p></center>
-          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p className="carousel-font">Textiles</p></Link><hr style={{width:"100%"}}/></center>
         </div>
         <div className="item">
           <img className="carousel-img1" src={img6} alt={img3} />
-          <center><p className="carousel-font">Perfumery</p></center>
-          <center><Link to="/chemicalsandPetrochemicals"><p>Explore</p></Link><hr style={{width:"100%"}}/></center>
+          <center><Link to="/chemicalsandPetrochemicals"><p className="carousel-font">Perfumery</p></Link><hr style={{width:"100%"}}/></center>
         </div>
       </OwlCarousel>
     </div>

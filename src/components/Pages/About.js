@@ -3,6 +3,7 @@ import Header from '../header/Navbar';
 import Footer from '../footer/Footer';
 import './About.css';
 import Chem1 from '../img/chem1.jfif';
+import doodle from "../img/doodle1.png";
 import Chem2 from '../img/chem2.jfif';
 import Chem3 from '../img/chem3.jfif';
 import Vission from '../elements/Carousel2';
@@ -30,6 +31,9 @@ const Aboutus = () => {
                 Polyester, Plastics Textiles, Plywood, Laminated Sheets, Cements, Paper etc.<br/><br/>
             </p>
         </div>
+        <center><img className="about-img1" src={doodle} alt={doodle}/></center>
+        <hr style={{width:"90%", backgroundColor:"brown",height:"1px"}}/>
+
         <Vission/>
         <Footer/>
         </div>

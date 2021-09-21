@@ -51,6 +51,7 @@ const LandingPage = () => {
                     </div>
                 </div>
             </div>
+            <hr style={{width:"90%", backgroundColor:"brown",height:"1px"}}/>
             <center><h1 className="Landing-heading" style={{marginBottom:"-40px"}}><FaMapMarkedAlt/> MARKETS<br/></h1></center>
             <Slideshow1/>
             <Footer/>

@@ -4,7 +4,7 @@ import './Carousel.css'
 import "owl.carousel/dist/assets/owl.carousel.min.css";
 import "owl.carousel/dist/assets/owl.theme.default.min.css";
 import img1 from "../img/ab4.png";
-import img2 from "../img/ab2.jpg";
+import img2 from "../img/ab6.jpg";
 import img3 from "../img/ab1.jpg";
 const App = () => {
   return (
