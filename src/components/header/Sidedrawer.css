@@ -8,7 +8,6 @@
     background: radial-gradient(circle, rgba(187, 1, 33, 1) 0%, rgba(60, 0, 0, 1) 100%); */
     position: fixed;
     z-index: 12;
-    opacity: 95%;
 }
 
 .sidedrawer-menu {
@@ -29,12 +28,10 @@
 @keyframes sidedrawer_show {
     0% {
         transform: translateX(-100%);
-        opacity: 0;
     }
 
     100% {
         transform: translateX(0);
-        opacity: 1;
     }
 }
 
@@ -45,12 +42,10 @@
 @keyframes sidedrawer_close {
     0% {
         transform: translateX(0);
-        opacity: 1;
     }
 
     100% {
         transform: translateX(-100%);
-        opacity: 0;
     }
 }
 

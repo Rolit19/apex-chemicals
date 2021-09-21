@@ -15,7 +15,6 @@
     background: rgb(36, 0, 0);
     background: linear-gradient(90deg, rgba(36, 0, 0, 1) 0%, rgba(121, 9, 15, 1) 50%, rgba(255, 0, 40, 1) 100%);
     color: white;
-    opacity: 90%;
 }
 
 .heading-h1 {
@@ -70,7 +69,6 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        opacity: 90%;
         padding-left: 10px;
     }
 
@@ -99,7 +97,6 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        opacity: 90%;
         padding-left: 10px;
     }
 
