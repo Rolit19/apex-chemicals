@@ -3,6 +3,8 @@ import './LandingPage.css';
 import Header from '../header/Navbar';
 import Footer from '../footer/Footer';
 import Slideshow from '../elements/Carousel';
+import img1 from '../img/card1.png';
+import img2 from '../img/card2.jpg';
 import Slideshow1 from '../elements/Carousel3';
 import { GiPathDistance } from "react-icons/gi";
 import { FcServices,FcImport,FcExport} from "react-icons/fc";
@@ -54,6 +56,23 @@ const LandingPage = () => {
             <hr style={{width:"90%", backgroundColor:"brown",height:"1px"}}/>
             <center><h1 className="Landing-heading" style={{marginBottom:"-40px"}}><FaMapMarkedAlt/> MARKETS<br/></h1></center>
             <Slideshow1/>
+            <hr style={{width:"90%", backgroundColor:"brown",height:"1px"}}/>
+            <center><h1 className="Landing-heading" style={{marginBottom:"40px"}}>Apex group<br/></h1></center>
+            <div className="card-container">
+                <div className="card">
+                    <h1 className="Landing-heading"> Human Resource Value<br/></h1>
+                    <img className="landing-card-img" src={img1} alt={img1} />
+                    <p className="Landing-font">A company relies on talents to sustain; a business depends on talents to boom.
+                     Talents are fundamental for enterprise development, and the first productive force to promote the business
+                     to have a great-leap-forward development.</p>
+                </div>
+                <div className="card">
+                    <h1 className="Landing-heading"> Recruitment<br/></h1>
+                    <img className="landing-card-img" src={img2} alt={img2} />
+                    <p className="Landing-font">Apex chemicals provides professional and all-round talent development mechanism
+                     for fresh college graduates with competitive salary and benefits.</p>
+                </div>
+            </div>
             <Footer/>
         </div>
     )
