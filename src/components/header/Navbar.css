@@ -20,7 +20,7 @@
 
 .Header_Container {
     width: 80%;
-    height: 110px;
+    height: 90px;
     margin: 0 auto;
     position: relative;
     display: flex;
@@ -29,8 +29,8 @@
 
 .Header_Logo {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 85px;
+    height: 85px;
     left: 0;
 }
 
@@ -145,7 +145,7 @@ a {
 
 @media (max-width: 1072px) {
     .Header_Container {
-        height: 110px;
+        height: 90px;
         width: 90%;
     }
 
