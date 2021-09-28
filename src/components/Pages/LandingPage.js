@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './LandingPage.css';
 import Header from '../header/Navbar';
 import Footer from '../footer/Footer';
@@ -10,9 +10,22 @@ import { GiPathDistance } from "react-icons/gi";
 import { FcServices,FcImport,FcExport} from "react-icons/fc";
 import { FaIndent,FaMapMarkedAlt} from "react-icons/fa";
 
-const LandingPage = () => {
+class LandingPage extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+          is_visible: false
+        };
+      }
+      scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      }
+    render(){
     return (
-        <div>
+        <div onClick={() => this.scrollToTop()}>
             <Header/>
             <Slideshow/>
             <div className="Landing-content">
@@ -76,6 +89,7 @@ const LandingPage = () => {
             <Footer/>
         </div>
     )
+    }
 }
 
 export default LandingPage;

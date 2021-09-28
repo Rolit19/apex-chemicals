@@ -8,8 +8,14 @@ import {MdEmail} from "react-icons/md";
 import {RiQuestionAnswerFill} from "react-icons/ri";
 
 const CareersPage = () => {
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      };
     return (
-        <div>
+        <div onClick={scrollToTop}>
             <Header/>
             <div className="Career-content">
                 <h1 className="Career-heading"><FcManager/> CAREERS WITH US:<br/></h1>

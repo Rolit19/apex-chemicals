@@ -7,8 +7,14 @@ import { Link } from 'react-router-dom';
 import {GiChemicalTank} from 'react-icons/gi'
 
 const ProductsPage = () => {
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      };
     return (
-        <div>
+        <div onClick={scrollToTop}>
             <Header/>
             <center>
                 <Slideshow/>

@@ -11,8 +11,14 @@ import { GiBubblingFlask } from "react-icons/gi";
 
 
 const Aboutus = () => {
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      };
     return (
-        <div>
+        <div onClick={scrollToTop}>
         <Header/>
         <div className="about-images">
             <img src={Chem1} className="about-img" alt="image1" />

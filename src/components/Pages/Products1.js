@@ -7,8 +7,14 @@ import './Products.css';
 import {GiChemicalTank} from 'react-icons/gi'
 import {FaMapMarkedAlt} from "react-icons/fa";
 const ProductsPage = () => {
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      };
     return (
-        <div>
+        <div onClick={scrollToTop}>
             <Header/>
             <center>
                 <h1 className="product-heading" style={{marginTop:"140px",marginBottom:"-60px"}}><FaMapMarkedAlt/> MARKETS</h1>
