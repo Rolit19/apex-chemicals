@@ -9,6 +9,8 @@ import Slideshow1 from '../elements/Carousel3';
 import { GiPathDistance } from "react-icons/gi";
 import { FcServices,FcImport,FcExport} from "react-icons/fc";
 import { FaIndent,FaMapMarkedAlt} from "react-icons/fa";
+import { FiArrowRightCircle} from "react-icons/fi";
+import { Link } from 'react-router-dom';
 
 class LandingPage extends Component {
     constructor(props) {
@@ -41,7 +43,7 @@ class LandingPage extends Component {
                         <h1 className="Landing-heading"><FcImport/> IMPORT<br/></h1>
                         <p className="Landing-font">Our global reach has helped us to import
                         products all over the world in a cost <br/>
-                        effective manner.</p>
+                        effective manner.</p>                        
                     </div>
                     <div className="Content-card">
                         <h1 className="Landing-heading"><GiPathDistance/> DISTRIBUTION<br/></h1>
@@ -78,12 +80,14 @@ class LandingPage extends Component {
                     <p className="Landing-font">A company relies on talents to sustain; a business depends on talents to boom.
                      Talents are fundamental for enterprise development, and the first productive force to promote the business
                      to have a great-leap-forward development.</p>
+                     <center><Link to="/careers"><p className="carousel-font">Learn More <FiArrowRightCircle/></p></Link></center>
                 </div>
                 <div className="card">
                     <h1 className="Landing-heading"> Recruitment<br/></h1>
                     <img className="landing-card-img" src={img2} alt={img2} />
                     <p className="Landing-font">Apex chemicals provides professional and all-round talent development mechanism
                      for fresh college graduates with competitive salary and benefits.</p>
+                     <center><Link to="/careers"><p className="carousel-font">Learn More <FiArrowRightCircle/></p></Link></center>
                 </div>
             </div>
             <Footer/>

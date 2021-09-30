@@ -31,7 +31,7 @@ const App = () => {
         <div className="item c-container">
           <img className="carousel-img" src={img3} alt={img3} />
           <div class="text-block">
-          <p>Drumming facilities  +  storage solutions</p>
+          <p>Industry leaders and service providers since 1990</p>
           </div>
         </div>
       </OwlCarousel>
