@@ -87,7 +87,7 @@ class LandingPage extends Component {
                     <img className="landing-card-img" src={img2} alt={img2} />
                     <p className="Landing-font">Apex chemicals provides professional and all-round talent development mechanism
                      for fresh college graduates with competitive salary and benefits.</p>
-                     <center><Link to="/careers"><p className="carousel-font">Learn More <FiArrowRightCircle/></p></Link></center>
+                     <center><Link to="/careers"><p className="carousel-font" style={{marginTop:"100px"}}>Learn More <FiArrowRightCircle/></p></Link></center>
                 </div>
             </div>
             <Footer/>
